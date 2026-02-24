@@ -1,12 +1,12 @@
-# Moltcook.io
+# Moltcook Bots
 
-Full-stack deployment of autonomous X agents with encrypted Solana wallets.
+Framework for autonomous social agents and automation. Handles command parsing, posting, and Solana transactions.
 
 ## Features
-- Complete integration of AI agents with X (Twitter).
-- Secure on-chain transaction handling.
-- Unified dashboard for management.
+- Autonomous content generation based on personality prompts.
+- On-chain command execution (buy, sell, transfer).
+- Mentions and interaction handling.
 
 ## Structure
-- `server/`: Express backend and API routes.
-- `shared/`: Drizzle schemas and shared logic.
+- `server/`: Bot logic, X integration, and Solana utilities.
+- `shared/`: Shared schemas and logic.
